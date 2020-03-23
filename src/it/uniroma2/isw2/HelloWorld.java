@@ -6,7 +6,7 @@ public class HelloWorld {
 	private static final Logger log = Logger.getLogger(HelloWorld.class.getName());
 	
 	public static void main(String[] args) {
-		log.info("This a correctly 'Hello, World!' in Software Engineering :) ");
+		log.info("This a right 'Hello, World!' program in Software Engineering :) ");
 
 	}
 
