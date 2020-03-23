@@ -1,10 +1,12 @@
 package it.uniroma2.isw2;
 
-public class HelloWorld {
-	public static String s = "Hello World";
+import java.util.logging.Logger;
 
+public class HelloWorld {
+	private static final Logger log = Logger.getLogger(HelloWorld.class.getName());
+	
 	public static void main(String[] args) {
-		System.out.println(s);
+		log.info("This a correctly 'Hello, World!' in Software Engineering :) ");
 
 	}
 
